@@ -1,6 +1,6 @@
 spring:
   application:
-    name: "cliente-cursos"
+    name: "clientecursos"
 
 server:
   port: 8082
