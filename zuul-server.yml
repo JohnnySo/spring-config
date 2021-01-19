@@ -1,0 +1,15 @@
+server:
+  port: 7000
+zuul:
+  ignored-services: '*'
+  routes:
+    servicio-cursos:
+      path: /cursos/**
+      service-id: servicio-cursos
+    servicio-libros:
+      path: /libros/**
+      service-id: servicio-libros
+eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8761/eureka
