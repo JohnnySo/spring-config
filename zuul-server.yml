@@ -4,10 +4,10 @@ zuul:
   ignored-services: '*'
   routes:
     servicio-cursos:
-      path: /cursos/**
+      path: /servcursos/**
       service-id: servicio-cursos
     servicio-libros:
-      path: /libros/**
+      path: /servlibros/**
       service-id: servicio-libros
 eureka:
   client:
