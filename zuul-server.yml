@@ -4,7 +4,7 @@ zuul:
   ignored-services: '*'
   routes:
     servicio-cursos:
-      path: /service/cursos/**
+      path: /cursos/**
       service-id: servicio-cursos
     servicio-libros:
       path: /libros/**
