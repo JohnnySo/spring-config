@@ -1,6 +1,6 @@
 spring:
   application:
-    name: "serviciocursos"
+    name: "servicio-cursos"
 
 server:
   port: 9000
