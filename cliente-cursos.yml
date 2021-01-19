@@ -3,11 +3,4 @@ spring:
     name: cliente-cursos
 server:
   port: 8082
-eureka:
-  instance:
-    lease-renewal-interval-in-seconds: 20
-    lease-expiration-duration-in-seconds: 20
-  client:
-    register-with-eureka: false
-    service-url:
-      default-zone: http://localhost:8761/eureka
+
